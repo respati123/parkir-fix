@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "babel-preset-stage-2": "^6.24.1",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^5.1",
+        "css-loader": "^1.0.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.4",
+        "node-sass": "^4.9.3",
+        "popper.js": "^1.12",
+        "scss-loader": "^0.0.1",
+        "vue": "^2.5.7",
+        "vue-events": "^3.1.0",
+        "vue-router": "^3.0.1",
+        "vuetable-2": "^1.7.5",
+        "vuex": "^3.0.1"
+    },
+    "dependencies": {
+        "chart.js": "^2.7.2",
+        "prettier": "^1.12.1",
+        "vue-chartjs": "^3.4.0",
+        "vue-multiselect": "^2.1.0",
+        "vue-resource": "^1.5.1",
+        "vue-session": "^1.0.0",
+        "vue2-google-maps": "^0.10.2"
+    }
+}

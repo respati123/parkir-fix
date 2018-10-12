@@ -1,0 +1,97 @@
+.alert-top {
+    position: fixed;
+    top: 40px;
+    right: 2%;
+    width: 30%;
+    z-index: 9999;
+}
+
+.badge-theme {
+    width: auto;
+    margin: 5px;
+    padding: auto;
+    display: flex;
+    vertical-align: auto;
+    height: auto;
+    border-radius: 5px;
+    background: darkgrey;
+
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}
+
+.badge-theme p {
+    margin: auto;
+    align-content: center;
+    padding: 5px;
+    color: white;
+}
+
+.badge-theme button {
+    margin: 5px;
+}
+
+.box-list-img p {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: red;
+    padding: 5px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 10px;
+    display: inline-block;
+}
+.box-list {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: inline-flex;
+
+}
+
+.box-list-img {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+}
+
+.box-list-desc {
+    width: 40%;
+    padding: 10px;
+    display: block;
+}
+
+.box-list-desc h3 p {
+    margin: 0;
+    font-size: 5.9vw;
+}
+.box-list-desc p {
+
+    font-size: 12px;
+    color: #2c3b41;
+    font-style: italic;
+
+}
+.box-list-desc h3 {
+
+    font-size: 24px;
+    font-variant: all-petite-caps;
+
+}
+.btn-margin {
+    margin-right: 5px;
+}
